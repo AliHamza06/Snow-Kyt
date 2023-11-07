@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SNOW KYT | Products</title>
+    <!-- bootstrap link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- boxicons link -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- bootstrap icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <div class="container-fluid manage_container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary navbar_main_section">
+        <div class="container-fluid p-0">
+          <a class="navbar-brand navbar_brand" href="index.html"
+            ><img src="assets/images/Logo.svg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler navbar_toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list nav_list_icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar_ul">
+              <li class="nav-item">
+                <a class="nav-link nav_link_text" aria-current="page" href="products.html"
+                  >Men</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_link_text" href="products.html">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_link_text" href="asked_questions.html">Kids</a>
+              </li>
+              <div class="search_div">
+                <input
+                  class="nav_search"
+                  type="text"
+                  placeholder="Type to search..."
+                />
+                <img
+                  src="assets/images/Form  Button  SVG.svg"
+                  class="search_icon"
+                  alt=""
+                />
+              </div>
+              <li class="nav-item">
+                <a class="nav-link nav_link_text" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_link_text" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Dropdown Section Start  -->
+    <div class="container-fluid manage_container">
+      <div class="section_one manage_width">
+        <div>
+          <div class="dropDown">
+            <button class="dropbtn">
+              Clothing <i class="bi bi-chevron-down dropArrow"></i>
+            </button>
+            <div class="dropdownContent">
+              <a href="#">Option 1</a>
+              <a href="#">Option 2</a>
+              <a href="#">Option 3</a>
+            </div>
+          </div>
+          <div class="dropDown">
+            <button class="dropbtn">
+              Equipment <i class="bi bi-chevron-down dropArrow"></i>
+            </button>
+            <div class="dropdownContent">
+              <a href="#">Option 1</a>
+              <a href="#">Option 2</a>
+              <a href="#">Option 3</a>
+            </div>
+          </div>
+          <div class="dropDown">
+            <button class="dropbtn">
+              Brands <i class="bi bi-chevron-down dropArrow"></i>
+            </button>
+            <div class="dropdownContent">
+              <a href="#">Option 1</a>
+              <a href="#">Option 2</a>
+              <a href="#">Option 3</a>
+            </div>
+          </div>
+          <div class="dropDown">
+            <div class="dropDown">
+              <a href="#" style="text-decoration: none;">
+               <button class="dropbtn">
+                 Trending
+               </button>
+              </a>
+             </div>
+          </div>
+        </div>
+        <!-- select section  -->
+        <div class="selector_div">
+          <div class="filter_text">
+            <h6>Filters</h6>
+            <div class="dropDown">
+              <button class="dropbtn">
+                Sort By <i class="bi bi-chevron-down dropArrow"></i>
+              </button>
+              <div class="dropdownContent">
+                <a href="#">Option 1</a>
+                <a href="#">Option 2</a>
+              </div>
+            </div>
+          </div>
+          <div class="selecter_div">
+            <div class="select_box">
+              <div class="selected_option">
+                <span>Group</span>
+                <i class="bi bi-chevron-down dropArrow"></i>
+              </div>
+              <div class="option_container">
+                <div class="option_li">One</div>
+                <div class="option_li">Two</div>
+                <div class="option_li">Three</div>
+              </div>
+            </div>
+            <div class="select_box">
+              <div class="selected_option">
+                <span>Brand</span>
+                <i class="bi bi-chevron-down dropArrow"></i>
+              </div>
+              <div class="option_container">
+                <div class="option_li">One</div>
+                <div class="option_li">Two</div>
+                <div class="option_li">Three</div>
+              </div>
+            </div>
+            <div class="select_box">
+              <div class="selected_option">
+                <span>Category</span>
+                <i class="bi bi-chevron-down dropArrow"></i>
+              </div>
+              <div class="option_container">
+                <div class="option_li">One</div>
+                <div class="option_li">Two</div>
+                <div class="option_li">Three</div>
+              </div>
+            </div>
+            <div class="select_box">
+              <div class="selected_option">
+                <span>Size</span>
+                <i class="bi bi-chevron-down dropArrow"></i>
+              </div>
+              <div class="option_container">
+                <div class="option_li">One</div>
+                <div class="option_li">Two</div>
+                <div class="option_li">Three</div>
+              </div>
+            </div>
+            <div class="select_box">
+              <div class="selected_option">
+                <span>Price</span>
+                <i class="bi bi-chevron-down dropArrow"></i>
+              </div>
+              <div class="option_container">
+                <div class="option_li">One</div>
+                <div class="option_li">Two</div>
+                <div class="option_li">Three</div>
+              </div>
+            </div>
+            <div class="search_box">
+              <input
+                type="text"
+                class="search_input selected_option"
+                placeholder="Search..."
+              />
+              <span class="clear_icon"><i class='bx bx-x'></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="product_card" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
+              <img
+                src="assets/images/image 13.png"
+                class="product_card_img"
+                alt=""
+              />
+              <div class="product_card_item">
+                <div class="product_card_body">
+                  <h5>Sweat Shirt</h5>
+                  <p>Sweatshirt with full sleeves</p>
+                  <h6>Brand Name</h6>
+                </div>
+                <div>
+                  <!-- Button trigger modal -->
+                  <button
+                    type="button"
+                    class="price_button"
+                    
+                  >
+                    $123.00
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal_main_sec">
+              <div class="modal-content border-0">
+                <div class="row">
+                  <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+                    <div class="modal_swiper">
+                      <!-- Swiper -->
+                      <div
+                        thumbsSlider=""
+                        class="swiper mySwiper modal_slide_swiper_main1"
+                      >
+                        <div class="swiper-wrapper modal_slide_swiper1">
+                          <div class="swiper-slide">
+                            <img
+                            src="assets/images/image 13.png"
+                            class="modal_swiper_slide_image"
+                          />
+                            
+                          </div>
+                          <div class="swiper-slide">
+                            <img
+                            src="assets/images/image 4.png"
+                            class="modal_swiper_slide_image"
+                          />
+                          </div>
+                          <div class="swiper-slide">
+                            <img
+                              src="assets/images/image 5.png"
+                              class="modal_swiper_slide_image"
+                            />
+                          </div>
+                          <div class="next_and_pervious_btn_div">
+                            <div
+                              class="swiper-button-prev modal_swiper_prev_btn"
+                            >
+                              <i class="bx bx-chevron-up"></i>
+                            </div>
+                            <div
+                              class="swiper-button-next modal_swiper_next_btn"
+                            >
+                              <i class="bx bx-chevron-down"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper mySwiper2 modal_swiper_1">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img
+                            src="assets/images/image 16.png"
+                            class="modal_swiper_image"
+                          />
+                            
+                          </div>
+                          <div class="swiper-slide">
+                            <img
+                            src="assets/images/image 4.png"
+                            class="modal_swiper_image"
+                          />
+                          </div>
+                          <div class="swiper-slide">
+                            <img
+                              src="assets/images/image 5.png"
+                              class="modal_swiper_image"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-5 col-12 col-12">
+                    <div class="d-flex justify-content-end">
+                      <button
+                        type="button"
+                        class="btn-close modal_close_btn"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal_desc_text">
+                      <h4>Sweatshirt</h4>
+                      <p>Sweatshirt with full sleeves</p>
+                      <h4 class="mt-5">$1990</h4>
+                    </div>
+                    <div class="modal_product_desc">
+                      <h6>Product Description:</h6>
+                      <p class="product_desc_p">
+                        Welcome to Snow Kyt, the ultimate destination
+                        for all the clothing and equipment you need to
+                        hit the slopes! Our passion for skiing drives us
+                        to provide you with a comprehensive comparison,
+                        ensuring you make the perfect choice for your
+                        winter adventures.
+                      </p>
+                      <div class="shop_now_btn">
+                        <a href="#">
+                          <button type="button">Shop Now</button>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="mt-2">
+                      <div class="accordion accordion-flush modal_accord" id="accordionFlushExample">
+                        <div class="accordion-item border-0">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button modal_accordion_btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              All Shipping and Return Info
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="modal_accordion_body">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque, atque ex nisi dolor modi totam quas nobis eius debitis.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button modal_accordion_btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              Product Details
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="modal_accordion_body">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque, atque ex nisi dolor modi totam quas nobis eius debitis.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" style="position: relative;">
+                  <h1 class="similar_product_text">Similar Products</h1>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4">
+                    <div class="product_card">
+                      <img src="assets/images/image 13.png" class="modal_product_card_img" alt="" />
+                      <div class="product_card_item">
+                        <div class="product_card_body modal_product_card_body">
+                          <h5>Sweat Shirt</h5>
+                          <p>Sweatshirt with full sleeves</p>
+                          <h6>Brand Name</h6>
+                        </div>
+                        <div>
+                          <button type="button" class="price_button modal_price_button">$123.00</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4">
+                    <div class="product_card">
+                      <img src="assets/images/image 13.png" class="modal_product_card_img" alt="" />
+                      <div class="product_card_item">
+                        <div class="product_card_body modal_product_card_body">
+                          <h5>Sweat Shirt</h5>
+                          <p>Sweatshirt with full sleeves</p>
+                          <h6>Brand Name</h6>
+                        </div>
+                        <div>
+                          <button type="button" class="price_button modal_price_button">$123.00</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4">
+                    <div class="product_card">
+                      <img src="assets/images/image 13.png" class="modal_product_card_img" alt="" />
+                      <div class="product_card_item">
+                        <div class="product_card_body modal_product_card_body">
+                          <h5>Sweat Shirt</h5>
+                          <p>Sweatshirt with full sleeves</p>
+                          <h6>Brand Name</h6>
+                        </div>
+                        <div>
+                          <button type="button" class="price_button modal_price_button">$123.00</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4">
+                    <div class="product_card">
+                      <img src="assets/images/image 13.png" class="modal_product_card_img" alt="" />
+                      <div class="product_card_item">
+                        <div class="product_card_body modal_product_card_body">
+                          <h5>Sweat Shirt</h5>
+                          <p>Sweatshirt with full sleeves</p>
+                          <h6>Brand Name</h6>
+                        </div>
+                        <div>
+                          <button type="button" class="price_button modal_price_button">$123.00</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="assets/images/scroll.svg" class="scroll_image" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="product_card" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
+              <img src="assets/images/image 13.png" class="product_card_img" alt="" />
+              <div class="product_card_item">
+                <div class="product_card_body">
+                  <h5>Sweat Shirt</h5>
+                  <p>Sweatshirt with full sleeves</p>
+                  <h6>Brand Name</h6>
+                </div>
+                <div>
+                  <button type="button" class="price_button">$123.00</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="product_card" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
+              <img src="assets/images/image 13.png" class="product_card_img" alt="" />
+              <div class="product_card_item">
+                <div class="product_card_body">
+                  <h5>Sweat Shirt</h5>
+                  <p>Sweatshirt with full sleeves</p>
+                  <h6>Brand Name</h6>
+                </div>
+                <div>
+                  <button type="button" class="price_button">$123.00</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="product_card" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
+              <img src="assets/images/image 13.png" class="product_card_img" alt="" />
+              <div class="product_card_item">
+                <div class="product_card_body">
+                  <h5>Sweat Shirt</h5>
+                  <p>Sweatshirt with full sleeves</p>
+                  <h6>Brand Name</h6>
+                </div>
+                <div>
+                  <button type="button" class="price_button">$123.00</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="product_card" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
+              <img src="assets/images/image 13.png" class="product_card_img" alt="" />
+              <div class="product_card_item">
+                <div class="product_card_body">
+                  <h5>Sweat Shirt</h5>
+                  <p>Sweatshirt with full sleeves</p>
+                  <h6>Brand Name</h6>
+                </div>
+                <div>
+                  <button type="button" class="price_button">$123.00</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="product_card" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
+              <img src="assets/images/image 13.png" class="product_card_img" alt="" />
+              <div class="product_card_item">
+                <div class="product_card_body">
+                  <h5>Sweat Shirt</h5>
+                  <p>Sweatshirt with full sleeves</p>
+                  <h6>Brand Name</h6>
+                </div>
+                <div>
+                  <button type="button" class="price_button">$123.00</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="product_card" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
+              <img src="assets/images/image 13.png" class="product_card_img" alt="" />
+              <div class="product_card_item">
+                <div class="product_card_body">
+                  <h5>Sweat Shirt</h5>
+                  <p>Sweatshirt with full sleeves</p>
+                  <h6>Brand Name</h6>
+                </div>
+                <div>
+                  <button type="button" class="price_button">$123.00</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="product_card" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
+              <img src="assets/images/image 13.png" class="product_card_img" alt="" />
+              <div class="product_card_item">
+                <div class="product_card_body">
+                  <h5>Sweat Shirt</h5>
+                  <p>Sweatshirt with full sleeves</p>
+                  <h6>Brand Name</h6>
+                </div>
+                <div>
+                  <button type="button" class="price_button">$123.00</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="product_card" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
+              <img src="assets/images/image 13.png" class="product_card_img" alt="" />
+              <div class="product_card_item">
+                <div class="product_card_body">
+                  <h5>Sweat Shirt</h5>
+                  <p>Sweatshirt with full sleeves</p>
+                  <h6>Brand Name</h6>
+                </div>
+                <div>
+                  <button type="button" class="price_button">$123.00</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="product_card" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
+              <img src="assets/images/image 13.png" class="product_card_img" alt="" />
+              <div class="product_card_item">
+                <div class="product_card_body">
+                  <h5>Sweat Shirt</h5>
+                  <p>Sweatshirt with full sleeves</p>
+                  <h6>Brand Name</h6>
+                </div>
+                <div>
+                  <button type="button" class="price_button">$123.00</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="product_card" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
+              <img src="assets/images/image 13.png" class="product_card_img" alt="" />
+              <div class="product_card_item">
+                <div class="product_card_body">
+                  <h5>Sweat Shirt</h5>
+                  <p>Sweatshirt with full sleeves</p>
+                  <h6>Brand Name</h6>
+                </div>
+                <div>
+                  <button type="button" class="price_button">$123.00</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="product_card" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
+              <img src="assets/images/image 13.png" class="product_card_img" alt="" />
+              <div class="product_card_item">
+                <div class="product_card_body">
+                  <h5>Sweat Shirt</h5>
+                  <p>Sweatshirt with full sleeves</p>
+                  <h6>Brand Name</h6>
+                </div>
+                <div>
+                  <button type="button" class="price_button">$123.00</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pagination_section">
+          <div class="pagination_section_item">
+            <p>Showing 48 of 100</p>
+            <div class="show_more_btn_div">
+              <a href="asked_questions.html">
+                <button type="button" class="show_more_btn">Show More</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Us Section  -->
+    <div class="container-fluid manage_container">
+      <div class="section_seven manage_width" id="contact">
+        <div class="contact_us_section">
+          <h5>Contact Us</h5>
+          <p>
+            Send us an email if you require any assistance and a member of our
+            dedicated team will be in touch within 24 hours.
+          </p>
+          <div class="user_email_div">
+            <img src="assets/images/image 12.svg" alt="" />
+            <a href="#">Info@snowkyt.com</a>
+          </div>
+        </div>
+        <div class="contact_us_bar">
+          <div>
+            <img src="assets/images/Logo contact.svg" alt="" />
+          </div>
+          <div class="contact_bar_div">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">FAQs</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="social_icon">
+            <a href="#" class="icon_div">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="#" class="icon_div">
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="#" class="icon_div">
+              <i class="bx bxl-tiktok"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- bootstrap cdn  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- jquery cdn  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="assets/js/file.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+
+      // read more text 
+      $(document).ready(function () {
+        // Configure/customize these variables.
+        var showChar = 360; // How many characters are shown by default
+        var ellipsestext = ".";
+        var moretext = "Read More..";
+        var lesstext = "Read Less";
+
+        $(".product_desc_p").each(function () {
+          var content = $(this).html();
+
+          if (content.length > showChar) {
+            var c = content.substr(0, showChar);
+            var h = content.substr(showChar, content.length - showChar);
+
+            var html =
+              c +
+              '<span class="moreellipses">' +
+              ellipsestext +
+              '&nbsp;</span><span class="morecontent"><span>' +
+              h +
+              '</span><a href="" class="morelink">' +
+              moretext +
+              "</a></span>";
+
+            $(this).html(html);
+          }
+        });
+        $(".morelink").click(function(){
+        if($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+        }
+        $(this).parent().prev().toggle();
+        $(this).prev().toggle();
+        return false;
+    });
+      });
+    </script>
+  </body>
+</html>
