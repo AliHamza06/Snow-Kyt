@@ -31,58 +31,88 @@
   </head>
   <body>
     <!-- Header Start -->
-    <div class="container-fluid manage_container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary navbar_main_section">
-        <div class="container-fluid p-0">
-          <a class="navbar-brand navbar_brand" href="index.html"
-            ><img src="assets/images/Logo.svg" alt=""
-          /></a>
-          <button
-            class="navbar-toggler navbar_toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="bi bi-list nav_list_icon"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar_ul">
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" aria-current="page" href="products.html"
-                  >Men</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" href="products.html">Women</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" href="asked_questions.html">Kids</a>
-              </li>
-              <div class="search_div">
-                <input
-                  class="nav_search"
-                  type="text"
-                  placeholder="Type to search..."
-                />
-                <img
-                  src="assets/images/Form  Button  SVG.svg"
-                  class="search_icon"
-                  alt=""
-                />
-              </div>
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" href="#about">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" href="#contact">Contact Us</a>
-              </li>
-            </ul>
+    <div class="navbar_main_section">
+      <div class="container-fluid manage_container">
+        <nav class="navbar navbar-expand-lg p-0">
+          <div class="container-fluid p-0">
+            <a class="navbar-brand navbar_brand" href="index.html"
+              ><img src="assets/images/Logo.svg" alt=""
+            /></a>
+            <button
+              class="navbar-toggler navbar_toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="bi bi-list nav_list_icon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar_ul">
+                <li class="nav-item nav_item_navbar">
+                  <!-- <a class="nav-link nav_link_text" aria-current="page" href="products.html" >Men</a> -->
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle nav_link_text" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Men
+                    </button>
+                    <ul class="dropdown-menu py-1">
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Action</a></li>
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Another action</a></li>
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item nav_item_navbar">
+                  <!-- <a class="nav-link nav_link_text" href="products.html">Women</a> -->
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle nav_link_text" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Women
+                    </button>
+                    <ul class="dropdown-menu py-1">
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Action</a></li>
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Another action</a></li>
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item nav_item_navbar">
+                  <!-- <a class="nav-link nav_link_text" href="products.html">Women</a> -->
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle nav_link_text" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Kids
+                    </button>
+                    <ul class="dropdown-menu py-1">
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Action</a></li>
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Another action</a></li>
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <div class="search_div">
+                  <input
+                    class="nav_search"
+                    type="text"
+                    placeholder="Type to search..."
+                  />
+                  <img
+                    src="assets/images/Form  Button  SVG.svg"
+                    class="search_icon"
+                    alt=""
+                  />
+                </div>
+                <li class="nav-item nav_item_navbar">
+                  <a class="nav-link nav_link_text" href="#" data-scroll="about">About Us</a>
+                </li>
+                <li class="nav-item nav_item_navbar">
+                  <a class="nav-link nav_link_text" href="#" data-scroll="contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </div>
     <!-- Frequently Asked Questions Section  -->
     <div class="container-fluid manage_container">
@@ -323,10 +353,9 @@
             <img src="assets/images/Logo contact.svg" alt="" />
           </div>
           <div class="contact_bar_div">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="#">About Us</a>
-            <a href="#">FAQs</a>
-            <a href="#">Contact Us</a>
+            <a href="asked_questions.html">FAQs</a>
           </div>
           <div class="social_icon">
             <a href="#" class="icon_div">

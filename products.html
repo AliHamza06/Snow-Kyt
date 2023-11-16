@@ -37,101 +37,135 @@
   </head>
   <body>
     <!-- Header Start -->
-    <div class="container-fluid manage_container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary navbar_main_section">
-        <div class="container-fluid p-0">
-          <a class="navbar-brand navbar_brand" href="index.html"
-            ><img src="assets/images/Logo.svg" alt=""
-          /></a>
-          <button
-            class="navbar-toggler navbar_toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="bi bi-list nav_list_icon"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar_ul">
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" aria-current="page" href="products.html"
-                  >Men</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" href="products.html">Women</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" href="asked_questions.html">Kids</a>
-              </li>
-              <div class="search_div">
-                <input
-                  class="nav_search"
-                  type="text"
-                  placeholder="Type to search..."
-                />
-                <img
-                  src="assets/images/Form  Button  SVG.svg"
-                  class="search_icon"
-                  alt=""
-                />
-              </div>
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" href="#about">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" href="#contact">Contact Us</a>
-              </li>
-            </ul>
+    <div class="navbar_main_section">
+      <div class="container-fluid manage_container">
+        <nav class="navbar navbar-expand-lg p-0">
+          <div class="container-fluid p-0">
+            <a class="navbar-brand navbar_brand" href="index.html"
+              ><img src="assets/images/Logo.svg" alt=""
+            /></a>
+            <button
+              class="navbar-toggler navbar_toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="bi bi-list nav_list_icon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar_ul">
+                <li class="nav-item nav_item_navbar">
+                  <!-- <a class="nav-link nav_link_text" aria-current="page" href="products.html" >Men</a> -->
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle nav_link_text" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Men
+                    </button>
+                    <ul class="dropdown-menu py-1">
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Action</a></li>
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Another action</a></li>
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item nav_item_navbar">
+                  <!-- <a class="nav-link nav_link_text" href="products.html">Women</a> -->
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle nav_link_text" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Women
+                    </button>
+                    <ul class="dropdown-menu py-1">
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Action</a></li>
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Another action</a></li>
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item nav_item_navbar">
+                  <!-- <a class="nav-link nav_link_text" href="products.html">Women</a> -->
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle nav_link_text" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Kids
+                    </button>
+                    <ul class="dropdown-menu py-1">
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Action</a></li>
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Another action</a></li>
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <div class="search_div">
+                  <input
+                    class="nav_search"
+                    type="text"
+                    placeholder="Type to search..."
+                  />
+                  <img
+                    src="assets/images/Form  Button  SVG.svg"
+                    class="search_icon"
+                    alt=""
+                  />
+                </div>
+                <li class="nav-item nav_item_navbar">
+                  <a class="nav-link nav_link_text" href="#" data-scroll="about">About Us</a>
+                </li>
+                <li class="nav-item nav_item_navbar">
+                  <a class="nav-link nav_link_text" href="#" data-scroll="contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </div>
     <!-- Dropdown Section Start  -->
     <div class="container-fluid manage_container">
       <div class="section_one manage_width">
-        <div>
-          <div class="dropDown">
-            <button class="dropbtn">
-              Clothing <i class="bi bi-chevron-down dropArrow"></i>
-            </button>
-            <div class="dropdownContent">
-              <a href="#">Option 1</a>
-              <a href="#">Option 2</a>
-              <a href="#">Option 3</a>
+        <div class="dropdown_main_section">
+          <div class="dropdown002">
+            <div class="dropbtn">
+              Clothing<i class="bi bi-chevron-down dropArrow"></i>
+            </div>
+            <div class="dropdown_content002">
+              <div class="option_002Div">
+                <a href="#link1">Option 1</a>
+                <a href="#link2">Option 2</a>
+                <a href="#link3">Option 3</a>
+              </div>
             </div>
           </div>
-          <div class="dropDown">
-            <button class="dropbtn">
-              Equipment <i class="bi bi-chevron-down dropArrow"></i>
-            </button>
-            <div class="dropdownContent">
-              <a href="#">Option 1</a>
-              <a href="#">Option 2</a>
-              <a href="#">Option 3</a>
+          <div class="dropdown002">
+            <div class="dropbtn">
+              Equipment
+              <i class="bi bi-chevron-down dropArrow"></i>
+            </div>
+            <div class="dropdown_content002">
+              <div class="option_002Div">
+              <a href="#link1">Option 4</a>
+              <a href="#link2">Option 5</a>
+              <a href="#link3">Option 6</a>
+            </div>
             </div>
           </div>
-          <div class="dropDown">
-            <button class="dropbtn">
-              Brands <i class="bi bi-chevron-down dropArrow"></i>
-            </button>
-            <div class="dropdownContent">
-              <a href="#">Option 1</a>
-              <a href="#">Option 2</a>
-              <a href="#">Option 3</a>
+          <div class="dropdown002">
+            <div class="dropbtn">
+              Brands
+              <i class="bi bi-chevron-down dropArrow"></i>
+            </div>
+            <div class="dropdown_content002">
+              <div class="option_002Div">
+              <a href="#link1">Option 7</a>
+              <a href="#link2">Option 8</a>
+              <a href="#link3">Option 9</a>
+            </div>
             </div>
           </div>
-          <div class="dropDown">
-            <div class="dropDown">
-              <a href="#" style="text-decoration: none;">
-               <button class="dropbtn">
-                 Trending
-               </button>
-              </a>
-             </div>
+          <div class="dropbtn">
+            <a href="products.html" style="text-decoration: none; color: #ffffff;">
+              <span>Trending</span>
+            </a>
           </div>
         </div>
         <!-- select section  -->
@@ -140,12 +174,13 @@
             <h6>Filters</h6>
             <div class="dropDown">
               <button class="dropbtn">
-                Sort By <i class="bi bi-chevron-down dropArrow"></i>
+                Sort By <i class="bi bi-chevron-down dropArrow001"></i>
               </button>
               <div class="dropdownContent">
                 <a href="#">Option 1</a>
                 <a href="#">Option 2</a>
-              </div>
+                <a href="#">Option 3</a>
+            </div>
             </div>
           </div>
           <div class="selecter_div">
@@ -204,13 +239,8 @@
                 <div class="option_li">Three</div>
               </div>
             </div>
-            <div class="search_box">
-              <input
-                type="text"
-                class="search_input selected_option"
-                placeholder="Search..."
-              />
-              <span class="clear_icon"><i class='bx bx-x'></i></span>
+            <div class="removeFilterDiv">
+              <i class='bx bx-x clear_filter'></i>
             </div>
           </div>
         </div>
@@ -244,14 +274,14 @@
             </div>
             <!-- Modal -->
             <div
-            class="modal fade"
+            class="modal fade modal_main_div001"
             id="staticBackdrop"
             data-bs-backdrop="static"
             data-bs-keyboard="false"
             tabindex="-1"
             aria-labelledby="staticBackdropLabel"
             aria-hidden="true">
-            <div class="modal-dialog modal_main_sec">
+            <div class="modal-dialog modal-dialog-centered modal_main_sec">
               <div class="modal-content border-0">
                 <div class="row">
                   <div class="col-lg-7 col-md-7 col-sm-12 col-12">
@@ -364,18 +394,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="accordion-item border-0">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button modal_accordion_btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                              Product Details
-                            </button>
-                          </h2>
-                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="modal_accordion_body">
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque, atque ex nisi dolor modi totam quas nobis eius debitis.</p>
-                            </div>
-                          </div>
-                        </div>
+                       
                       </div>
                     </div>
                   </div>
@@ -442,7 +461,6 @@
                       </div>
                     </div>
                   </div>
-                  <img src="assets/images/scroll.svg" class="scroll_image" alt="">
                 </div>
               </div>
             </div>
@@ -629,7 +647,7 @@
           <div class="pagination_section_item">
             <p>Showing 48 of 100</p>
             <div class="show_more_btn_div">
-              <a href="asked_questions.html">
+              <a href="#">
                 <button type="button" class="show_more_btn">Show More</button>
               </a>
             </div>
@@ -656,10 +674,9 @@
             <img src="assets/images/Logo contact.svg" alt="" />
           </div>
           <div class="contact_bar_div">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="#">About Us</a>
-            <a href="#">FAQs</a>
-            <a href="#">Contact Us</a>
+            <a href="asked_questions.html">FAQs</a>
           </div>
           <div class="social_icon">
             <a href="#" class="icon_div">
@@ -746,6 +763,28 @@
         return false;
     });
       });
+      // // scrool page
+      $(document).ready(function () {
+  $("a[data-scroll]").on("click", function (e) {
+    e.preventDefault();
+
+    var target = $(this).attr("data-scroll");
+    var offset = 20; // Adjust this offset if necessary
+    var navbarHeight = $(".navbar_main_section").height(); // Use your actual navbar class
+    var marginTop = 10; // Adjust the margin-top value as needed
+
+    // Calculate the target position, including offset, top margin, and navbar height
+    var targetPosition = $("#" + target).offset().top - offset - navbarHeight - marginTop;
+
+    // Scroll to the target position
+    $("html, body").animate(
+      {
+        scrollTop: targetPosition,
+      },
+      1000
+    );
+  });
+});
     </script>
   </body>
 </html>

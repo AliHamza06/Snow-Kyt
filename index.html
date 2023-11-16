@@ -31,107 +31,201 @@
   </head>
   <body>
     <!-- Header Start -->
-    <div class="container-fluid manage_container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary navbar_main_section">
-        <div class="container-fluid p-0">
-          <a class="navbar-brand navbar_brand" href="#"
-            ><img src="assets/images/Logo.svg" alt=""
-          /></a>
-          <button
-            class="navbar-toggler navbar_toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="bi bi-list nav_list_icon"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar_ul">
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" aria-current="page" href="products.html"
-                  >Men</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" href="products.html">Women</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" href="asked_questions.html">Kids</a>
-              </li>
-              <div class="search_div">
-                <input
-                  class="nav_search"
-                  type="text"
-                  placeholder="Type to search..."
-                />
-                <img
-                  src="assets/images/Form  Button  SVG.svg"
-                  class="search_icon"
-                  alt=""
-                />
-              </div>
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" href="#about">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav_link_text" href="#contact">Contact Us</a>
-              </li>
-            </ul>
+    <div class="navbar_main_section">
+      <div class="container-fluid manage_container">
+        <nav class="navbar navbar-expand-lg p-0">
+          <div class="container-fluid p-0">
+            <a class="navbar-brand navbar_brand" href="index.html"
+              ><img src="assets/images/Logo.svg" alt=""
+            /></a>
+            <button
+              class="navbar-toggler navbar_toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="bi bi-list nav_list_icon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar_ul">
+                <li class="nav-item nav_item_navbar">
+                  <!-- <a class="nav-link nav_link_text" aria-current="page" href="products.html" >Men</a> -->
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-secondary dropdown-toggle nav_link_text"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Men
+                    </button>
+                    <ul class="dropdown-menu py-1">
+                      <li>
+                        <a class="dropdown-item dropdown_item_text" href="#"
+                          >Action</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown_item_text" href="#"
+                          >Another action</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown_item_text" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item nav_item_navbar">
+                  <!-- <a class="nav-link nav_link_text" href="products.html">Women</a> -->
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-secondary dropdown-toggle nav_link_text"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Women
+                    </button>
+                    <ul class="dropdown-menu py-1">
+                      <li>
+                        <a class="dropdown-item dropdown_item_text" href="#"
+                          >Action</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown_item_text" href="#"
+                          >Another action</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown_item_text" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item nav_item_navbar">
+                  <!-- <a class="nav-link nav_link_text" href="products.html">Women</a> -->
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-secondary dropdown-toggle nav_link_text"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Kids
+                    </button>
+                    <ul class="dropdown-menu py-1">
+                      <li>
+                        <a class="dropdown-item dropdown_item_text" href="#"
+                          >Action</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown_item_text" href="#"
+                          >Another action</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown_item_text" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <div class="search_div">
+                  <input
+                    class="nav_search"
+                    type="text"
+                    placeholder="Type to search..."
+                  />
+                  <img
+                    src="assets/images/Form  Button  SVG.svg"
+                    class="search_icon"
+                    alt=""
+                  />
+                </div>
+                <li class="nav-item nav_item_navbar">
+                  <a class="nav-link nav_link_text" href="#" data-scroll="about"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item nav_item_navbar">
+                  <a
+                    class="nav-link nav_link_text"
+                    href="#"
+                    data-scroll="contact"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </div>
     <!-- Dropdown Section Start  -->
     <div class="container-fluid manage_container">
       <div class="section_one manage_width">
-        <div>
-          <div class="dropDown">
-            <button class="dropbtn">
-              Clothing <i class="bi bi-chevron-down dropArrow"></i>
-            </button>
-            <div class="dropdownContent">
-              <a href="#">Option 1</a>
-              <a href="#">Option 2</a>
-              <a href="#">Option 3</a>
+        <div class="dropdown_main_section">
+          <div class="dropdown002">
+            <div class="dropbtn">
+              Clothing<i class="bi bi-chevron-down dropArrow"></i>
+            </div>
+            <div class="dropdown_content002">
+              <div class="option_002Div">
+                <a href="#link1">Option 1</a>
+                <a href="#link2">Option 2</a>
+                <a href="#link3">Option 3</a>
+              </div>
             </div>
           </div>
-          <div class="dropDown">
-            <button class="dropbtn">
-              Equipment <i class="bi bi-chevron-down dropArrow"></i>
-            </button>
-            <div class="dropdownContent">
-              <a href="#">Option 1</a>
-              <a href="#">Option 2</a>
-              <a href="#">Option 3</a>
+          <div class="dropdown002">
+            <div class="dropbtn">
+              Equipment
+              <i class="bi bi-chevron-down dropArrow"></i>
+            </div>
+            <div class="dropdown_content002">
+              <div class="option_002Div">
+              <a href="#link1">Option 4</a>
+              <a href="#link2">Option 5</a>
+              <a href="#link3">Option 6</a>
+            </div>
             </div>
           </div>
-          <div class="dropDown">
-            <button class="dropbtn">
-              Brands <i class="bi bi-chevron-down dropArrow"></i>
-            </button>
-            <div class="dropdownContent">
-              <a href="#">Option 1</a>
-              <a href="#">Option 2</a>
-              <a href="#">Option 3</a>
+          <div class="dropdown002">
+            <div class="dropbtn">
+              Brands
+              <i class="bi bi-chevron-down dropArrow"></i>
+            </div>
+            <div class="dropdown_content002">
+              <div class="option_002Div">
+              <a href="#link1">Option 7</a>
+              <a href="#link2">Option 8</a>
+              <a href="#link3">Option 9</a>
+            </div>
             </div>
           </div>
-          <div class="dropDown">
-           <a href="#" style="text-decoration: none;">
-            <button class="dropbtn">
-              Trending
-            </button>
-           </a>
+          <div class="dropbtn">
+            <a href="products.html" style="text-decoration: none; color: #ffffff;">
+              <span>Trending</span>
+            </a>
           </div>
         </div>
       </div>
     </div>
     <!-- popup section  -->
-    <div class="container-fluid manage_container">
+    <div class="container-fluid p-0">
       <div class="section_two">
-        <h3>Your favorite ski brands all in one place</h3>
+        <h3>All your favourite ski brands in one place</h3>
       </div>
     </div>
     <!-- ski brands section  -->
@@ -146,7 +240,7 @@
                 class="shoping_card_img"
               />
               <div class="shoping_button">
-                <a href="#">
+                <a href="products.html">
                   <button type="button" class="shoping_card_button">
                     Shop Clothing
                   </button>
@@ -155,31 +249,34 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-4">
-            <div class="shoping_card card_content" style="background-color: #EFE8E8;">
+            <div
+              class="shoping_card card_content"
+              style="background-color: #efe8e8"
+            >
               <img
                 src="assets/images/image 2.png"
                 alt=""
                 class="shoping_card_img"
               />
               <div class="shoping_button">
-                <a href="#">
+                <a href="products.html">
                   <button type="button" class="shoping_card_button">
-                    Shop Equipments
+                    Shop Equipment
                   </button>
                 </a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-4">
-            <div class="shoping_card" style="background-color: #F2EEEE;">
-              <h4>Explore Brands</h4>
+            <div class="shoping_card" style="background-color: #f2eeee">
+              <h4>CHANEL</h4>
               <img
                 src="assets/images/image 3.png"
                 alt=""
                 class="shoping_card_img"
               />
               <div class="shoping_button">
-                <a href="#">
+                <a href="products.html">
                   <button type="button" class="shoping_card_button">
                     Explore Brands
                   </button>
@@ -298,11 +395,11 @@
                 unforgettable skiing experience.
               </p>
             </div>
-            <div class="about_us_section_btn">
+            <!-- <div class="about_us_section_btn">
               <a href="#">
                 <button type="button">Read More</button>
               </a>
-            </div>
+            </div> -->
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt-3">
             <img
@@ -314,7 +411,7 @@
         </div>
       </div>
     </div>
-     <!-- Contact Us Section  -->
+    <!-- Contact Us Section  -->
     <div class="container-fluid manage_container">
       <div class="section_seven manage_width" id="contact">
         <div class="contact_us_section">
@@ -333,24 +430,22 @@
             <img src="assets/images/Logo contact.svg" alt="" />
           </div>
           <div class="contact_bar_div">
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">FAQs</a>
-            <a href="#">Contact Us</a>
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="asked_questions.html">FAQs</a>
           </div>
           <div class="social_icon">
             <a href="#" class="icon_div">
               <i class="bx bxl-facebook"></i>
             </a>
             <a href="#" class="icon_div">
-              <i class='bx bxl-instagram'></i>
+              <i class="bx bxl-instagram"></i>
             </a>
             <a href="#" class="icon_div">
-              <i class='bx bxl-tiktok'></i>
+              <i class="bx bxl-tiktok"></i>
             </a>
+          </div>
         </div>
-        </div>
-        
       </div>
     </div>
     <!-- bootstrap cdn  -->
@@ -400,23 +495,41 @@
           },
         },
       });
-      // scrool page
+      // // scrool page
       $(document).ready(function () {
-        // Add smooth scrolling to all links with data-scroll attribute
         $("a[data-scroll]").on("click", function (e) {
           e.preventDefault();
 
           var target = $(this).attr("data-scroll");
-          var offset = 60; // Adjust this offset if necessary
+          var offset = 20; // Adjust this offset if necessary
+          var navbarHeight = $(".navbar_main_section").height(); // Use your actual navbar class
+          var marginTop = 10; // Adjust the margin-top value as needed
 
+          // Calculate the target position, including offset, top margin, and navbar height
+          var targetPosition =
+            $("#" + target).offset().top - offset - navbarHeight - marginTop;
+
+          // Scroll to the target position
           $("html, body").animate(
             {
-              scrollTop: $("#" + target).offset().top - offset,
+              scrollTop: targetPosition,
             },
             1000
           );
         });
       });
+      // document.addEventListener('DOMContentLoaded', function () {
+      //   var dropdown = document.getElementById('dropdown');
+      //   var dropdownContent = document.getElementById('dropdownContent');
+
+      //   dropdown.addEventListener('mouseover', function () {
+      //     dropdownContent.classList.add('dropdownFullWidth');
+      //   });
+
+      //   dropdown.addEventListener('mouseout', function () {
+      //     dropdownContent.classList.remove('dropdownFullWidth');
+      //   });
+      // });
     </script>
   </body>
 </html>
