@@ -64,7 +64,8 @@
                       Men
                     </button>
                     <ul class="dropdown-menu py-1">
-                      <li><a class="dropdown-item dropdown_item_text" href="#">Action</a></li>
+                      <li><a class="dropdown-item dropdown_item_text" href="#">Action</a>
+                      </li>
                       <li><a class="dropdown-item dropdown_item_text" href="#">Another action</a></li>
                       <li><a class="dropdown-item dropdown_item_text" href="#">Something else here</a></li>
                     </ul>
@@ -72,7 +73,7 @@
                 </li>
                 <li class="nav-item nav_item_navbar">
                   <!-- <a class="nav-link nav_link_text" href="products.html">Women</a> -->
-                  <div class="dropdown">
+                  <div class="dropdown activeDropDown">
                     <button class="btn btn-secondary dropdown-toggle nav_link_text" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Women
                     </button>
@@ -130,9 +131,31 @@
             </div>
             <div class="dropdown_content002">
               <div class="option_002Div">
-                <a href="#link1">Option 1</a>
-                <a href="#link2">Option 2</a>
-                <a href="#link3">Option 3</a>
+               <ul class="option01Ul">
+                <li>
+                  <a href="#link1">All Clothing <i class="bi bi-chevron-right rightIcon"></i></a>
+                  <ul class="option02Ul">
+                    <li><a href="#">Option 1</a></li>
+                    <li><a href="#">Option 2</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#link2">Jackets <i class="bi bi-chevron-right rightIcon"></i></a>
+                  <ul class="option02Ul">
+                    <li><a href="#">Option 3</a></li>
+                    <li><a href="#">Option 4</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#link3">Trousers <i class="bi bi-chevron-right rightIcon"></i></a>
+                  <ul class="option02Ul">
+                    <li><a href="#">Option 5</a></li>
+                    <li><a href="#">Option 6</a></li>
+                  </ul>
+                </li>
+               </ul>
+                
+                
               </div>
             </div>
           </div>
@@ -143,10 +166,23 @@
             </div>
             <div class="dropdown_content002">
               <div class="option_002Div">
-              <a href="#link1">Option 4</a>
-              <a href="#link2">Option 5</a>
-              <a href="#link3">Option 6</a>
-            </div>
+                <ul class="option01Ul">
+                  <li>
+                    <a href="#link1">General</a>
+                    <ul class="option02Ul">
+                      <li><a href="#">Goggles <i class="bi bi-chevron-right rightIcon"></i></a></li>
+                      <li><a href="#">Helmets <i class="bi bi-chevron-right rightIcon"></i></a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#link1">Skiing</a>
+                    <ul class="option02Ul">
+                      <li><a href="#">Skis <i class="bi bi-chevron-right rightIcon"></i></a></li>
+                      <li><a href="#">Poles <i class="bi bi-chevron-right rightIcon"></i></a></li>
+                    </ul>
+                  </li>
+                 </ul>
+               </div>
             </div>
           </div>
           <div class="dropdown002">
@@ -156,9 +192,29 @@
             </div>
             <div class="dropdown_content002">
               <div class="option_002Div">
-              <a href="#link1">Option 7</a>
-              <a href="#link2">Option 8</a>
-              <a href="#link3">Option 9</a>
+                <ul class="option01Ul">
+                  <li>
+                    <a href="#link1">Burton <i class="bi bi-chevron-right rightIcon"></i></a>
+                    <ul class="option02Ul">
+                      <li><a href="#">Option 1</a></li>
+                      <li><a href="#">Option 2</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#link2">Helly Hansen <i class="bi bi-chevron-right rightIcon"></i></a>
+                    <ul class="option02Ul">
+                      <li><a href="#">Option 3</a></li>
+                      <li><a href="#">Option 4</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#link3">Salomon <i class="bi bi-chevron-right rightIcon"></i></a>
+                    <ul class="option02Ul">
+                      <li><a href="#">Option 5</a></li>
+                      <li><a href="#">Option 6</a></li>
+                    </ul>
+                  </li>
+                 </ul>
             </div>
             </div>
           </div>
@@ -240,7 +296,7 @@
               </div>
             </div>
             <div class="removeFilterDiv">
-              <i class='bx bx-x clear_filter'></i>
+             <a href="products.html"> <button class="clearFilterBtn"><i class='bx bx-x clear_filter'></i> Clear All</button></a>
             </div>
           </div>
         </div>
